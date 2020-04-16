@@ -17,7 +17,7 @@
     bottom:0;
     color: white;
     background-color: black;
-    opacity: 70%;
+    opacity: 70% !important;
 }
 
 .banner p {
