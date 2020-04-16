@@ -5,7 +5,7 @@ import Jumbotron from "react-bootstrap/Jumbotron"
 
 const BannerImage = (props) => (
     <Jumbotron className={styles.banner}>
-        <div>
+        <div className={styles.dialogContainer}>
             <h1>
                 <b className={styles.divider}>|</b>{props.title}
             </h1>
